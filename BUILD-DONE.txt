@@ -1,0 +1,9 @@
+People CRM local build complete, 2026-10-01
+
+Tests: 25 passed (pytest 8.3.5, Python 3.12.10).
+Verified implementation commit: 1ab41ac63476cdb103e59a8b68b92df0251e0230
+This file is recorded in a subsequent evidence-only commit; the hash above identifies the tested implementation.
+Installed CLI end-to-end synthetic demo: 0.709325 seconds, below 5 seconds.
+Fixture: 200 records, exact hand-computed counts and case IDs, zero false positives and zero missed planted cases.
+
+Built a deterministic, CPU-only, local Python People CRM CLI with fixtures, run, Markdown/JSON report, followups and exact-ID person lookup. Pure domain logic classifies explicitly entered dates, validates schema and adversarial values, and exposes record context with source hashes and synthetic/declared-real provenance. Reports label savings unmeasured, errors are named, and output writes are atomic. The repo includes synthetic 200-person fixtures with independent expectations, a hand-written five-person example, acceptance and adversarial tests, complete usage and input docs, domain lessons and a two-week real-use improvement hook. Real-use usefulness and the final verdict remain pending that evidence window. No publishing was performed.

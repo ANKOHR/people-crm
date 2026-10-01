@@ -1,0 +1,6 @@
+# Synthetic hand-written five-person example, no real people
+{"id":"a","name":"Example A","context":"Synthetic school context","last_interaction":"2026-09-20","follow_up":"2026-09-29","synthetic":true}
+{"id":"b","name":"Example B","context":"Synthetic outreach context","last_interaction":"2026-09-20","follow_up":"2026-09-30","synthetic":true}
+{"id":"c","name":"Example C","context":"Synthetic build context","last_interaction":"2026-09-20","follow_up":"2026-10-01","synthetic":true}
+{"id":"d","name":"Example D","context":"Synthetic application context","last_interaction":"2026-09-20","follow_up":null,"synthetic":true}
+{"id":"e","name":"Example E","context":"Synthetic missing-history example","last_interaction":null,"follow_up":null,"synthetic":true}
